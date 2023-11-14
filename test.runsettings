@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- Adapter Specific sections -->
+	<NUnit>
+		<!-- https://github.com/nunit/nunit3-vs-adapter/issues/709, NOTE that you need to disable the Realtime Test Discovery option in Visual studio options -->
+		<UseParentFQNForParametrizedTests>true</UseParentFQNForParametrizedTests>
+		<UseNUnitIdforTestCaseId>true</UseNUnitIdforTestCaseId>
+	</NUnit>
+</RunSettings>
